@@ -1,0 +1,88 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+.venv-1/
+venv/
+env/
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Jupyter notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+!.vscode/extensions.json
+
+# ==============================
+# Test and coverage files
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Downloaded scientific papers and datasets
+# ==============================
+data/raw/
+data/processed/
+data/benchmark/
+data/human_labels/
+
+# ==============================
+# Embeddings and vector indexes
+# ==============================
+*.faiss
+*.index
+vector_store/
+embeddings/
+
+# ==============================
+# Experiment outputs
+# ==============================
+results/
+outputs/
+
+# ==============================
+# Model files
+# ==============================
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
